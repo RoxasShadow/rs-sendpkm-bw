@@ -1,0 +1,14 @@
+It's a fake Pokémon GTS server.
+rs-sendpkm-bw.py is a modificated version of ir-gts-bw'sendpkm.py <http://code.google.com/p/ir-gts/>.
+To install, just copy `sendpkm.py` and `shifter.py` on /ir-gts-bw/src/.
+Tested only on ir-gts-bw 0.05 <http://code.google.com/p/ir-gts/>.
+
+Feature added (rs-sendpkm-bw.py):
+	Giving a path, rs-sendpkm-bw gives casually one of the .pkm files which are in the directory at the game;
+	Otherwise of kill himself, when it gives a Pokémon at the game, rs-sendpkm-bw waits another game to gives it another Pokémon, while it isn't killed;
+	A couple of rows to optimize the code;
+	Each 4°gen Pokémon is shifted to 5°gen.
+	
+Giovanni 'Roxas Shadow' Capuano
+	<http://www.giovannicapuano.net>
+	<http://www.technicianpokemon.com>
